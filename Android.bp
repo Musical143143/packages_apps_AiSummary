@@ -1,0 +1,8 @@
+android_app {
+    name: "AiSummary",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    sdk_version: "current",
+    privileged: true,
+    certificate: "platform",
+}
